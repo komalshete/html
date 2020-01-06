@@ -1,0 +1,30 @@
+.w3r_none {
+border-top-style: none;
+}
+.w3r_hiddent {
+border-top-style: hidden;
+}
+.w3r_dotted {
+border-style: dotted;
+}
+.w3r_dashed{
+border-top-style: dashed;
+}
+.w3r_solid {
+border-top-style: solid;
+}
+.w3r_double {
+border-top-style: double;
+}
+.w3r_groove {
+border-top-style: groove;
+}
+.w3r_ridge {
+border-top-style: ridge;
+}
+.w3r_inset {
+border-top-style: inset;
+}
+.w3r_outset {
+border-top-style: outset;
+}

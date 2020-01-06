@@ -1,0 +1,123 @@
+<!-----
+CSS selectors are used to "find" (or select) the HTML elements you want to style.
+
+We can divide CSS selectors into five categories:
+
+Simple selectors -(select elements based on name, id, class)
+Combinator selectors- (select elements based on a specific relationship between them)
+Pseudo-class selectors -(select elements based on a certain state)
+Pseudo-elements selectors -(select and style a part of an element)
+Attribute selectors (select -elements based on an attribute or attribute value)
+
+
+-->
+<!---css element selector-->
+<!----<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  text-align: center;
+  color: red;
+  background-color: azure;
+} 
+</style>
+</head>
+<body>
+<p>Every paragraph will be affected by the style.</p>
+<p id="para1">Me too!</p>
+<p>And me!</p>
+</body>
+</html>   -->
+
+<!----css Id Selector-->
+
+<!----<!DOCTYPE html>
+<html>
+<head>
+<style>
+#para1 {
+  text-align: center;
+  color: red;
+}
+</style>
+</head>
+<body>
+
+<p id="para1">Hello World!</p>
+<p>This paragraph is not affected by the style.</p>
+
+</body>
+</html> --->
+
+
+<!---css class selector-->
+
+<!----<!DOCTYPE html>
+<html>
+<head>
+<style>
+.center {
+  text-align: center;
+  color: red;
+}
+.abc{
+  background-color: aqua;
+}
+</style>
+</head>
+<body>
+
+<h1 class="center abc">Red and center-aligned heading</h1>
+<p class="center">Red and center-aligned paragraph.</p> 
+
+</body>
+</html> -->
+
+
+<!----universal selector-->
+
+   <!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+   font-family: 'Courier New', Courier, monospace;
+   font-size:20px;
+}
+</style>
+</head>
+<body>
+
+<h1>Hello world!</h1>
+<p>Every element on the page will be affected by the style.</p>
+<p id="para1">Me too!</p>
+<p>And me!</p>
+
+</body>
+</html>  
+
+
+<!---grouping selector-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1,p{
+  text-align: center;
+  color: blue;
+}
+</style>
+</head>
+<body>
+
+<h1>Hello world!</h1>
+
+<p>Every element on the page will be affected by the style.</p>
+<p id="para1">Me too!</p>
+<p>And me!</p>
+
+</body>
+</html> 
+
